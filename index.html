@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Сократика</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="wrapper__header">
+            <div class="header__logo">
+              <a href=""><img src="img/logo.JPG" alt="logo" /></a>
+            </div>
+            <input type="checkbox" id="check-menu" />
+            <label for="check-menu"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="main-menu">
+              <a class="burger__link" href="#">Презентации</a>
+              <a class="burger__link" href="#">О нас</a>
+              <a class="burger__link" href="#">Наша команда</a>
+              <a class="burger__link" href="#">Категории</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <div class="content__container">
+          <div class="content__items">
+            <div class="content__item item-content">
+              <h3 class="welcome__title"><a href="#">добро пожаловать</a></h3>
+              <h1 class="welcome__untitle">
+                Создайте прещзентации по школьной программе вместе с
+                <span>Сократика</span>
+              </h1>
+              <p class="welcome__text">
+                Испльзуя искусственный интелект, ты за считанные секунды
+                получишь идеальную призентацию, которая подойдет для проведения
+                уроков в школе на любую тему
+              </p>
+              <a class="welcome__btn" id="showImageBtn">Начать</a>
+              <div id="imageContainer" style="display: none">
+                <img src="img/Фон.png" alt="img" />
+              </div>
+            </div>
+            <div class="content__item">
+              <img src="img/Сократика.JPG" alt="Сократика" />
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

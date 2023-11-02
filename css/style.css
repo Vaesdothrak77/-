@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+body {
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  display: none;
+}
+/* ---------------------------------------- */
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+}
+
+/* ------------------------------------------- */
+
+.title {
+}
+
+.text {
+}
+
+.title span {
+}
+
+.inp-check {
+  display: none;
+}
+
+/* ------------------------------------------- */
+.page {
+  flex: 1 1 auto;
+}
+
+/* ------------------------------------------- */
+
+[class*="__container"] {
+  max-width: 1015px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ---------------- Header -------------- */
+
+.header {
+}
+.header__container {
+}
+.wrapper__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+}
+.burger-line {
+}
+.first {
+}
+.second {
+}
+.third {
+}
+.fourth {
+}
+.main-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.burger__link {
+  font-size: 0.75rem;
+  color: #252525;
+  font-weight: 800;
+}
+
+/* ---------- Content ----------- */
+
+.content__container {
+}
+.content__items {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__item {
+}
+.item-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    max-width: 500px;
+}
+.welcome__title a {
+  color: rgb(35, 134, 247);
+  font-size: 1rem;
+}
+.welcome__untitle {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #141414;
+}
+.welcome__untitle span {
+  color: rgb(35, 134, 247);
+}
+.welcome__text {
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+.welcome__btn {
+    display: inline-block;
+    max-width: 150px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: rgb(35, 134, 247);
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+
+    transition: all ease .5s;
+}
+.welcome__btn:hover {
+    transform: scale(110%);
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 999;
+  }
+  
+  #expandedImage {
+    max-width: 80%; 
+    max-height: 80%; 
+  }
+  
